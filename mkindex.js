@@ -1,7 +1,8 @@
 var fs  = require('fs');
+var path = require('path');
 
-var create = function() {
-    var fileName = 'public/index.html';
+var create = function(baseDir) {
+    var fileName = path.join(baseDir, 'index.html');
 
     if (!fs.existsSync(fileName)) {
         var html = "<!doctype html>";

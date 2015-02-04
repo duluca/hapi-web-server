@@ -1,15 +1,19 @@
 /**
  * Created by doguhanuluca on 2/3/15.
  */
+var path = require('path');
+
 var mkdir = require('./mkdir');
 var mkindex = require('./mkindex');
 
-mkdir('public');
-mkdir('public/css');
-mkdir('public/fonts');
-mkdir('public/css');
-mkdir('public/js');
-mkdir('public/templates');
-mkdir('public/images');
+var baseDir = process.argv[2] || '';
 
-mkindex();
+mkdir(path.join(baseDir, 'public'));
+mkdir(path.join(baseDir, 'public/css'));
+mkdir(path.join(baseDir, 'public/fonts'));
+mkdir(path.join(baseDir, 'public/css'));
+mkdir(path.join(baseDir, 'public/js'));
+mkdir(path.join(baseDir, 'public/templates'));
+mkdir(path.join(baseDir, 'public/images'));
+
+mkindex(path.join(baseDir, 'public'));
