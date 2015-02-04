@@ -2,6 +2,7 @@
  * Created by doguhanuluca on 2/3/15.
  */
 var mkdir = require('./mkdir');
+var mkindex = require('./mkindex');
 
 mkdir('public');
 mkdir('public/css');
@@ -10,3 +11,5 @@ mkdir('public/css');
 mkdir('public/js');
 mkdir('public/templates');
 mkdir('public/images');
+
+mkindex();
