@@ -1,0 +1,28 @@
+{
+  "name": "hapi-web-server",
+  "version": "1.0.0",
+  "description": "Route and controller definitions to use Hapi.JS to serve content (html, css, js, images, etc) over the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://duluca@github.com/duluca/hapi-web-server.git"
+  },
+  "keywords": [
+    "hapi",
+    "web",
+    "server"
+  ],
+  "author": "Doguhan Uluca <duluca@gmail.com> (http://www.techtalkdc.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duluca/hapi-web-server/issues"
+  },
+  "homepage": "https://github.com/duluca/hapi-web-server",
+  "dependencies": {
+    "hapi": "^8.1.0",
+    "path": "^0.11.14"
+  }
+}
