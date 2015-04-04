@@ -27,5 +27,8 @@
     "fs": "0.0.2",
     "hapi": "^8.1.0",
     "path": "^0.11.14"
+  },
+  "devDependencies": {
+    "dev-norms": "^1.0.0"
   }
 }

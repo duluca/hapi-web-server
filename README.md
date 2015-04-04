@@ -6,7 +6,8 @@ Avoid using a templating engine or server-side generated html files. Hapi-web-se
 
 ## Install
 `npm install --save-dev hapi-web-server`
-Npm Link: https://www.npmjs.com/package/hapi-web-server
+
+[Npm Link] (https://www.npmjs.com/package/hapi-web-server)
 
 ### Content Folder Structure
 On npm install the expected folder structure and index.html is created:
@@ -18,7 +19,7 @@ On npm install the expected folder structure and index.html is created:
   - templates
   - index.html
 
-You can get the routes and the controllers that'll server the content with `require('hapi-web-server')`. See the code sample below on usage.
+You can get the routes and the controllers that will server the content with `require('hapi-web-server')`. See the code sample below on usage.
 
 ## Sample Code
 ```javascript
