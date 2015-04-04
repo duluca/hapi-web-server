@@ -1,11 +1,11 @@
 # hapi-web-server
-Route and controller definitions to use Hapi.JS to serve content (html, css, js, images, etc) over the web.
+Route and controller definitions to use Hapi.JS to serve static content (html, css, js, images, etc) over the web. Kind of like `express.static` but for Hapi.JS.
 
 ## Why Do You Need This?
 Avoid using a templating engine or server-side generated html files. Hapi-web-server contains route and controller definitions for Hapi.JS, so you can avoid writing this straighforward and boilerplate like code by using the package.
 
 ## Install
-`npm install --save hapi-web-server`
+`npm install --save-dev hapi-web-server`
 Npm Link: https://www.npmjs.com/package/hapi-web-server
 
 ### Content Folder Structure
